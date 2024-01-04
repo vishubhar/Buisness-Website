@@ -503,7 +503,7 @@ h3 {
   border-width: 5px;
   color: #f0f0f0;
   border-color: #4f0341;
-  background-color: #4f0341;
+  background-color: #4f0341ee;
 }
 
 .rows {
@@ -515,6 +515,10 @@ h3 {
   margin: 0%;
   padding-bottom: 0;
 }
+.Course-cols p {
+  color: #f0f0f0;
+}
+
 @media (max-width: 700px) {
   .row {
     flex-direction: column;
